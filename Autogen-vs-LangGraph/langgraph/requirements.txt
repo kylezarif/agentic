@@ -1,0 +1,23 @@
+# LangGraph Framework Dependencies for Experimental Study
+# Install: pip install -r requirements.txt
+
+# Core LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# LLM Providers
+openai>=1.0.0
+
+# Datasets and Evaluation
+datasets>=2.14.0
+deepeval>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+langfuse>=2.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0

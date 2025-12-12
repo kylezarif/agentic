@@ -1,0 +1,48 @@
+{
+  "framework": "LangGraph",
+  "date": "2025-12-12",
+  "benchmark": "Simple Math Pilot",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "n_problems": 5,
+  "correct": 5,
+  "total": 5,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "problem_id": 0,
+      "question": "What is 25 + 17?",
+      "expected_answer": "42",
+      "actual_output": "To solve the problem \\( 25 + 17 \\), we can follow these steps:\n\n1. **Align the numbers**: \n   ```\n     25\n   + 17\n   ```\n\n2. **Add the units place**: \n   - The units place is \\( 5 + 7 = 12 \\).\n   - Write down \\( 2 \\) and carry over \\( 1 \\) to the next column.\n\n3. **Add the tens place**: \n   - The tens place is \\( 2 + 1 + 1 = 4 \\) (the \\( 1 \\) is from the carry).\n   \n4. **Combine the results**: \n   - The result from the tens place is \\( 4 \\) and from the units place is \\( 2 \\), so we have \\( 42 \\).\n\nThus, the final answer is \\( 42 \\).",
+      "is_correct": true
+    },
+    {
+      "problem_id": 1,
+      "question": "What is 8 * 7?",
+      "expected_answer": "56",
+      "actual_output": "To solve the multiplication problem \\( 8 \\times 7 \\), we can follow these steps:\n\n1. **Understand the operation**: Multiplication is repeated addition. Here, we are adding the number 8 a total of 7 times.\n\n2. **Perform the calculation**:\n   \\[\n   8 + 8 + 8 + 8 + 8 + 8 + 8\n   \\]\n\n3. **Count the additions**:\n   - \\( 8 + 8 = 16 \\)\n   - \\( 16 + 8 = 24 \\)\n   - \\( 24 + 8 = 32 \\)\n   - \\( 32 + 8 = 40 \\)\n   - \\( 40 + 8 = 48 \\)\n   - \\( 48 + 8 = 56 \\)\n\n4. **Final result**: After adding 8 a total of 7 times, we find that:\n   \\[\n   8 \\times 7 = 56\n   \\]\n\nThus, the final answer is \\( \\boxed{56} \\).",
+      "is_correct": true
+    },
+    {
+      "problem_id": 2,
+      "question": "What is 100 - 35?",
+      "expected_answer": "65",
+      "actual_output": "To solve the problem step-by-step:\n\n1. Start with the number 100.\n2. Subtract 35 from 100.\n\nSo, we perform the calculation:\n\n100 - 35 = 65\n\nTherefore, the final answer is **65**.",
+      "is_correct": true
+    },
+    {
+      "problem_id": 3,
+      "question": "What is 144 / 12?",
+      "expected_answer": "12",
+      "actual_output": "To solve the problem \\( 144 \\div 12 \\), we can follow these steps:\n\n1. **Set up the division**: We want to divide 144 by 12.\n2. **Perform the division**: We can think of how many times 12 fits into 144.\n   - 12 goes into 144 exactly 12 times because \\( 12 \\times 12 = 144 \\).\n\nThus, the calculation is:\n\n\\[\n144 \\div 12 = 12\n\\]\n\nThe final answer is \\( \\boxed{12} \\).",
+      "is_correct": true
+    },
+    {
+      "problem_id": 4,
+      "question": "What is 15 * 3 + 10?",
+      "expected_answer": "55",
+      "actual_output": "To solve the expression \\( 15 \\times 3 + 10 \\), we follow the order of operations, which states that we should perform multiplication before addition.\n\nStep 1: Calculate \\( 15 \\times 3 \\).\n\\[\n15 \\times 3 = 45\n\\]\n\nStep 2: Now, add \\( 10 \\) to the result from Step 1.\n\\[\n45 + 10 = 55\n\\]\n\nThus, the final answer is \\( \\boxed{55} \\).",
+      "is_correct": true
+    }
+  ]
+}

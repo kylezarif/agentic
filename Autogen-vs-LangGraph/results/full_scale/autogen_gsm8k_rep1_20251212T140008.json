@@ -1,0 +1,31 @@
+{
+  "framework": "AutoGen",
+  "benchmark": "GSM8K",
+  "repetition": 1,
+  "date": "2025-12-12",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "n_problems": 2,
+  "correct": 2,
+  "total": 2,
+  "accuracy": 1.0,
+  "total_tokens": 423,
+  "results": [
+    {
+      "problem_id": 0,
+      "question": "If John has 15 apples and gives 3 to Mary, how many does he have left?",
+      "expected_answer": "12",
+      "actual_output": "To find out how many apples John has left after giving some to Mary, we can follow these steps:\n\n1. **Identify the initial amount of apples John has:** John starts with 15 apples.\n\n2. **Determine how many apples John gives to Mary:** John gives away 3 apples.\n\n3. **Calculate the remaining apples:** We subtract the number of apples given to Mary from the initial amount:\n   \\[\n   \\text{Remaining apples} = \\text{Initial apples} - \\text{Apples given to Mary}\n   \\]\n   \\[\n   \\text{Remaining apples} = ",
+      "is_correct": true,
+      "tokens_used": 229
+    },
+    {
+      "problem_id": 1,
+      "question": "A car travels 60 miles per hour for 3 hours. How far does it travel?",
+      "expected_answer": "180",
+      "actual_output": "To find out how far the car travels, we can use the formula for distance:\n\n\\[\n\\text{Distance} = \\text{Speed} \\times \\text{Time}\n\\]\n\nIn this case, the speed of the car is 60 miles per hour, and the time it travels is 3 hours. Plugging in these values:\n\n\\[\n\\text{Distance} = 60 \\text{ miles/hour} \\times 3 \\text{ hours}\n\\]\n\nNow, we perform the multiplication:\n\n\\[\n\\text{Distance} = 180 \\text{ miles}\n\\]\n\nThus, the car travels a total distance of 180 miles.\n\nFinal answer: 180 miles.",
+      "is_correct": true,
+      "tokens_used": 194
+    }
+  ]
+}

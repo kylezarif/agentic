@@ -1,0 +1,31 @@
+{
+  "framework": "LangGraph",
+  "benchmark": "GSM8K",
+  "repetition": 1,
+  "date": "2025-12-12",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "n_problems": 2,
+  "correct": 2,
+  "total": 2,
+  "accuracy": 1.0,
+  "total_tokens": 389,
+  "results": [
+    {
+      "problem_id": 0,
+      "question": "If John has 15 apples and gives 3 to Mary, how many does he have left?",
+      "expected_answer": "12",
+      "actual_output": "To find out how many apples John has left after giving some to Mary, we can follow these steps:\n\n1. **Start with the initial number of apples John has**: John starts with 15 apples.\n2. **Determine how many apples he gives to Mary**: John gives 3 apples to Mary.\n3. **Subtract the number of apples given away from the initial amount**: We need to subtract the 3 apples from the 15 apples John initially had.\n\nThe calculation is as follows:\n\n\\[ \n15 - 3 = 12 \n\\]\n\nThus, after giving 3 apples to Mary, Jo",
+      "is_correct": true,
+      "tokens_used": 196
+    },
+    {
+      "problem_id": 1,
+      "question": "A car travels 60 miles per hour for 3 hours. How far does it travel?",
+      "expected_answer": "180",
+      "actual_output": "To find out how far the car travels, we can use the formula for distance, which is:\n\n\\[\n\\text{Distance} = \\text{Speed} \\times \\text{Time}\n\\]\n\nIn this problem, the speed of the car is 60 miles per hour, and the time it travels is 3 hours. \n\nNow, we can plug in the values:\n\n\\[\n\\text{Distance} = 60 \\text{ miles/hour} \\times 3 \\text{ hours}\n\\]\n\nCalculating this gives:\n\n\\[\n\\text{Distance} = 180 \\text{ miles}\n\\]\n\nThus, the car travels a total distance of **180 miles**.",
+      "is_correct": true,
+      "tokens_used": 193
+    }
+  ]
+}

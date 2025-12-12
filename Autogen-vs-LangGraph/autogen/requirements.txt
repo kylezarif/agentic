@@ -1,0 +1,22 @@
+# AutoGen Framework Dependencies for Experimental Study
+# Install: pip install -r requirements.txt
+
+# Core AutoGen
+autogen-core>=0.4.0
+autogen-ext>=0.4.0
+
+# LLM Providers
+openai>=1.0.0
+
+# Datasets and Evaluation
+datasets>=2.14.0
+deepeval>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+langfuse>=2.0.0
+aiohttp>=3.9.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
